@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- IE=edge tells IE8 not to be tempted to use IE7 compatibility/quirks modes.
+          chrome=IE7 tells IE7 to use the Chrome Frame if available - good for Flex machines.
+          Should be the first meta tag in the body. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=IE7" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://data.gov.uk/profiles/dgu/themes/custom/dguk/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="/node/6006" />
+<link rel="canonical" href="/retiring-data-api" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+    <title>Retiring the data API | data.gov.uk</title>
+    <style>
+@import url("https://data.gov.uk/modules/system/system.base.css?p3tte1");
+</style>
+<style>
+@import url("https://data.gov.uk/modules/field/theme/field.css?p3tte1");
+@import url("https://data.gov.uk/profiles/dgu/modules/contrib/logintoboggan/logintoboggan.css?p3tte1");
+@import url("https://data.gov.uk/profiles/dgu/modules/contrib/mollom/mollom.css?p3tte1");
+@import url("https://data.gov.uk/profiles/dgu/modules/contrib/extlink/extlink.css?p3tte1");
+@import url("https://data.gov.uk/profiles/dgu/modules/contrib/views/css/views.css?p3tte1");
+</style>
+<style>
+@import url("https://data.gov.uk/profiles/dgu/modules/contrib/apachesolr_autocomplete/apachesolr_autocomplete.css?p3tte1");
+@import url("https://data.gov.uk/profiles/dgu/modules/contrib/apachesolr_autocomplete/jquery-autocomplete/jquery.autocomplete.css?p3tte1");
+@import url("https://data.gov.uk/profiles/dgu/modules/contrib/ctools/css/ctools.css?p3tte1");
+@import url("https://data.gov.uk/profiles/dgu/modules/contrib/lexicon/css/lexicon.css?p3tte1");
+@import url("https://data.gov.uk/profiles/dgu/modules/contrib/panels/css/panels.css?p3tte1")
