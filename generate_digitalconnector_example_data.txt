@@ -1,0 +1,48 @@
+gradle runExport -Precipe=src\main\resources\executions\examples\aggregate-traffic-count-data-within-localauthorities.json -Poutput=aggregate-traffic-count-data-within-localauthorities_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\birmingham-land-use-variance.json -Poutput=birmingham-land-use-variance_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\get-localauthority-data-for-traffic-counters.json -Poutput=get-localauthority-data-for-traffic-counters_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\greenspace-hertfordshire.json -Poutput=greenspace-hertfordshire_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\islington-active-transport-index.json -Poutput=islington-active-transport-index_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\leeds-activetravel-greenspace-ratio.json -Poutput=leeds-activetravel-greenspace-ratio_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\leisure-park-hertfordshire.json -Poutput=leisure-park-hertfordshire_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\london-cycle-traffic-air-quality.json -Poutput=london-cycle-traffic-air-quality_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\london-cycle-traffic-air-quality-lsoa.json -Poutput=london-cycle-traffic-air-quality-lsoa_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\london-cycle-traffic-air-quality-lsoa-backoff.json -Poutput=london-cycle-traffic-air-quality-lsoa-backoff_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\london-cycle-traffic-air-quality-lsoa-modelling.json -Poutput=london-cycle-traffic-air-quality-lsoa-modelling_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\london-cycle-traffic-air-quality-meanvalue.json -Poutput=london-cycle-traffic-air-quality-meanvalue_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\london-no2.json -Poutput=london-no2_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\london-no2-meanvalue.json -Poutput=london-no2-meanvalue_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\london-social-infrastructure.json -Poutput=london-social-infrastructure_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\map-to-nearest-subject.json -Poutput=map-to-nearest-subject_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\reaggregate-traffic-count-to-la.json -Poutput=reaggregate-traffic-count-to-la_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\renting-percentiles-for-leeds-normalised-nationally.json -Poutput=renting-percentiles-for-leeds-normalised-nationally_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\restricting-subjects-to-geography.json -Poutput=restricting-subjects-to-geography_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\social-isolation-leeds.json -Poutput=social-isolation-leeds_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\social-resilience-leeds.json -Poutput=social-resilience-leeds_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\template.json -Poutput=template_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\traffic-counts-geography-scope.json -Poutput=traffic-counts-geography-scope_output.json
+
+gradle runExport -Precipe=src\main\resources\executions\examples\tweet-number-person-number-compare.json -Poutput=tweet-number-person-number-compare_output.json
+
