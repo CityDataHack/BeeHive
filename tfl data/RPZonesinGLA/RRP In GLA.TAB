@@ -1,0 +1,12 @@
+!table
+!version 800
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 5
+    Zoneid Integer Index 1 ;
+    Borough Char (25) ;
+    GL Integer ;
+    INGLA Integer ;
+    AreaZone Float ;

@@ -1,0 +1,12 @@
+!table
+!version 1000
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 5
+    ID Integer Index 1 ;
+    Borough Char (40) ;
+    OA Integer ;
+    X Float ;
+    Y Float ;
