@@ -1,0 +1,27 @@
+Part 2:
+
+https://tfl.gov.uk/hub/stop/HUBKGX/kings-cross-st-pancras-international/?Input=King%27s+Cross+%26+St+Pancras+International
+
+https://api.tfl.gov.uk/Stoppoint/Search/Kings
+https://api.tfl.gov.uk/Stoppoint/Search/Kings?modes=tube
+https://api.tfl.gov.uk/Stoppoint/HUBKGX
+https://api.tfl.gov.uk/Stoppoint/490004722M
+
+https://api.tfl.gov.uk/Stoppoint/{id} 
+- always returns all the data from the biggest entity associated with the id
+- includes all of the ‘children’ of that entity
+
+
+
+https://tfl.gov.uk/maps?Input=Bank&InputGeolocation=51.513395%2C-0.089095
+
+https://api.tfl.gov.uk/Stoppoint?lat=51.513395&lon=-0.089095&stoptypes=NaptanMetroStation,NaptanRailStation,NaptanBusCoachStation,NaptanFerryPort,NaptanPublicBusCoachTram
+https://api.tfl.gov.uk/StopPoint/meta/stopTypes
+
+https://api.tfl.gov.uk/Line/piccadilly/stoppoints
+https://api.tfl.gov.uk/Line/24/stoppoints
+
+https://api.tfl.gov.uk/Place/Type/JamCam
+https://api.tfl.gov.uk/Place/Type/OysterTicketShop
+https://api.tfl.gov.uk/Place/meta/placeTypes
+

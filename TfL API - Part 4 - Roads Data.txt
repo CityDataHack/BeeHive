@@ -1,0 +1,31 @@
+https://api.tfl.gov.uk/Road/all/Status
+
+
+https://api.tfl.gov.uk/Road/Meta/severities
+	gets a list of all of the possible ‘statusSeverity’ values, with an ordinal to help with sorting
+	
+https://api.tfl.gov.uk/Road/All/Status?startDate=2015-11-20T00:00:00&endDate=2015-11-20T23:59:59
+	get the corridor status between future dates – for up to 12 months ahead
+	
+https://api.tfl.gov.uk/Road/A1
+	get the status of just a single corridor (the one with id ‘A1’ in this case)
+	
+https://api.tfl.gov.uk/Road/All/Disruption/TIMS-81012	
+	The name, description and duration of the disruption, along with its unique ID
+	An array of the affected street names, including the start and end lat/longs of those streets
+	The centre point of the disruption (where the icon is shown above)
+	A polygon showing the area of the disruption (the red-shaded area above)
+	The severity of the disruption
+	The corridors that this disruption affects
+	
+https://api.tfl.gov.uk/Road/all/Disruption?lat=51.5&lon=-0.1&radius=500
+	gets the disruptions within a 500 metre radius of the lat/long supplied
+	
+https://api.tfl.gov.uk/Road/all/Disruption?startDate=2015-12-01&endDate=2016-12-01
+	gets the disruptions between the two dates supplied across all of London
+	
+https://api.tfl.gov.uk/Road/all/Disruption?neLat=52.5&neLon=0&seLat=51.5&seLon=-0.1&startDate=2016-02-01&endDate=2016-03-01
+	the date and lat/long filters can also be combined, or used to describe bounding boxes
+	
+https://api.tfl.gov.uk/Place?lat=51.5&lon=-0.1&radius=500&type=JamCam
+

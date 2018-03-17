@@ -1,0 +1,11 @@
+https://api.tfl.gov.uk/StopPoint/490006170S/Arrivals?mode=bus&line=243
+
+https://api.tfl.gov.uk/StopPoint/940GZZLUODS/Arrivals?mode=tube
+
+https://api.tfl.gov.uk/line/victoria/arrivals
+	All the arrival times on the entire Victoria line
+https://api.tfl.gov.uk/line/243/arrivals
+	All the arrival times on the 243 bus route
+	
+https://api.tfl.gov.uk/StopPoint/940GZZCRWCR/Arrivals?mode=tram
+	get all the tram arrivals in a single API call, or use just for a single station as shown above

@@ -1,0 +1,26 @@
+https://api.tfl.gov.uk/Line/Mode/tube,dlr,overground,tflrail/Status
+https://api.tfl.gov.uk/Line/Meta/Modes
+
+https://api.tfl.gov.uk/Line/london-overground/Route/Sequence/outbound?serviceTypes=regular,night
+
+
+https://tfl.gov.uk/tube/timetable/northern?fromId=940GZZLUCTN
+
+https://api.tfl.gov.uk/StopPoint/940GZZLUCTN/CanReachOnLine/northern
+https://api.tfl.gov.uk/Line/northern/Timetable/940GZZLUCTN/to/940GZZLUODS
+	A list of all of the Stations involved in the timetable for the route (i.e. the station-level StopPoints in the NaPTAN hierarchy)
+	A list of all of the StopPoints involved in the timetable for the route (i.e. the platform-level StopPoints in the NaPTAN hierarchy)
+	A detailed list of the schedules, giving the arrival time at platform for the service
+	A breakdown of the day into service periods – highlighting the period where the service is frequent (e.g. 6 am to midnight, every 2-5 mins)
+
+	
+Line search e.g. https://api.tfl.gov.uk/Line/Search/victoria gets all of the lines named similarly to “victoria”
+
+Lines by modes e.g. https://api.tfl.gov.uk/Line/Mode/tram gets all of the Tram lines
+
+StopPoint details e.g. https://api.tfl.gov.uk/StopPoint/940GZZLUODS 
+returns Old Street station, and all of the lines and transport modes serving the station
+
+Routes from the StopPoint directly e.g. https://api.tfl.gov.uk/StopPoint/940GZZLUODS/Route 
+returns all of the RouteSections that pass through Old Street station, including the route name, line id, mode and LineString for each. 
+This is useful for drawing “spider maps” at a given station.
